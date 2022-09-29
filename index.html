@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Code Quiz - Prove que você conhece sobre o assunto!</title>
+</head>
+
+<body>
+    <!-- Link to highscores -->
+    <a href="HighScores.html"  class="link-score"></a>
+    <!-- This is a wrapper -->
+    <div id="wrapper">
+        <!-- Div for timer -->
+        <div id="currentTime"></div>
+        <!-- Div for quiz content -->
+        <div id="questionsDiv">
+            <img src="assets/images/logo.png" alt="QuizDev - Logo" class="logo">
+            <h1 class="div-text-main">QuizDev - Brainstorm</h1>
+            <p class="div-text">Mostre que você está em dia com os assuntos e responda este quiz incrível sobre desenvolvimento web, front end!</p>
+            <ul id="choicesUl"></ul>
+            <!-- Buttons -->
+            <button id="startTime">Iniciar o quiz</button>
+        </div>
+    </div>
+    <footer class="pagefooter">
+        <div class="footer-div">
+            <a href="HighScores.html"  class="link-score">Mostrar lista de Scores</a>
+            <p>Desenvolvido por Rafael Rosário</p>
+        </div>
+    </footer>
+    <script src="questions.js"></script>
+
+
+</body>
+
+</html>
