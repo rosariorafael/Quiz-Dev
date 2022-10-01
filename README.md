@@ -1,134 +1,126 @@
-# Code-Quiz
+# Código-Quiz
 
-This project was designed as a homework assignment for UNH's coding bootcamp. 
+Este projeto foi concebido como uma tarefa de casa para o bootcamp de codificação da UNH.
 
-This is a quiz application using HTML, CSS, and Javascript. This application emphasizes the use of Javascript to provide quiz questions and collect user data to determine whether the answers to a question are correct, this then generates a score and appends a final page of results from the user data. 
+Este é um aplicativo de quiz usando HTML, CSS e Javascript. Este aplicativo enfatiza o uso de Javascript para fornecer perguntas do questionário e coletar dados do usuário para determinar se as respostas a uma pergunta estão corretas, isso gera uma pontuação e anexa uma página final de resultados dos dados do usuário.
 
-This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link. Or, download the sources files to use this as a template.
+Este projeto foi implantado no GitHub Pages. Para colocar este projeto em funcionamento, você pode seguir o link situado abaixo. Ou baixe os arquivos de fontes para usá-los em visualização local.
 
-* [GitHub Repository](https://github.com/jamierachael/Code-Quiz)
-* [Deployed GitHub IO](https://jamierachael.github.io/Code-Quiz/)
-* [Full Demo Video](https://drive.google.com/file/d/1Vwszd5-rVd5LQKwpRoxpXqu_1eiH3uDI/view)
+* [Repositório do GitHub](https://github.com/jamierachael/Code-Quiz)
+* [Implantado GitHub IO](https://jamierachael.github.io/Code-Quiz/)
+* [Vídeo de demonstração completo](https://drive.google.com/file/d/1Vwszd5-rVd5LQKwpRoxpXqu_1eiH3uDI/view)
 
-![Code-Quiz Demo](assets/demo/gif.gif)
+![Demonstração do teste de código](assets/demo/gif.gif)
 
-### Prerequisites
+### Pré-requisitos
 
-To install this application, you will need a text editor. I recommend Visual Studio Code. 
+Para instalar este aplicativo, você precisará de um editor de texto. Eu recomendo o Visual Studio Code.
 
-### Installing
+### Instalando
 
-To install this code, download the zip file, or use GitHub's guidelines to clone the repository. 
-
-
-### Summary
-* HTML and CSS and Javascript documents create a quiz with multiple choice questions with Javascript trivia
-* This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document
-* This project utilizes the use of appending HTML pages 
-
-### This project has the following features: 
-* A Start Quiz button 
-    * This starts a timer for the user
-    * Each question averages 15 seconds each for a total time of 75 seconds + 1. 
-
-![](assets/images/button.PNG)
-
-* An appended HTML page that features questions, and multiple choice answers
-    * If questions are answered incorrectly, 5 seconds are deducted off remaining time
-    * Answers are recording using an event listener, "click" and tracks correct answers
-
-![](assets/images/question1.PNG)
-
-![](assets/images/question2.PNG)
-
-* An appended HTML page that features: 
-    * Final score which is calculated using time remaining
-    * A Summary of how many questions answered correctly 
-    * Input area to record initials
-    * A Submit button
-    * Submit buttom saves initials and score to local storage
-
-![](assets/images/final.PNG)
-
-* A Highscores HTML
-    * This a list summary of intials and final scores
-    * Clear button resets the page and local storage
-    * Go back button travels to the start of the quiz
-
-![](assets/images/high.PNG)
-
-### Psuedo code:  
-* Create a timer attached to a button with a starting value of 0
-* When timer is pressed start a reverse countdown
-* Create a 0 for countdown 
-* When countdown starts, start quiz
-* Start Quiz will be on appended page
-* Append the question: choices
-* When user selects the right answer, textcontent "Correct!"
-* When user selects the right answer, textcontent "Wrong!"
-* Final score will keep track of how many the user got right 
-* Left over time will be deducted from final score 
-* Final Score Appended page 
-* Captures local storage
-* Travels to another HTML
-* Retrieved highscores
-
-### This project has script features of:
-* Questions contained in an array variable with objects
-* Variable declaration area 
-* An event listener (onclick) that generates time interval
-* A function to render the questions and choices on the page using a for loop
-* An event listener on all list choices 
-* A comparison statement to compare correct answers to choices
-* An appended page showing the final stats of the individual user with input area for initials, captures local storage
-* Highscores retreived local storage
-
-### This project has media Queries for:
-* max-width: 980px 
-    * Adjusts body and container width
-* max-width: 786px
-    * Adjusts body and container width
-    * Adjusts buttons
-* max-width: 640px
-    * Adjusts body and container width
-    * Adjusts buttons to be centered and stacked
-
-### To Execute File:
-> Open in browser
-
-### Features: 
-* Two HTML Pages
-    * Index.html 
-        * Contains landing page to start timer
-        * Appends two new pages 
-* Highscores 
-        * Retreives local data from previous page
-* One CSS Page
-    * Styles.css
-        * Contains centering and styling for html list features
-        * Contains media queries
-* Two Javascript Page
-        * Contains: 
-        * Variables, including arrays with object
-        * Event listeners
-        * if/else if statements
-        * For Loops
-        * Functions 
-        * Local Storage set and get 
-
-## Authors
-
-* **Jamie Rachael Morris** - *Initial work* - [Git Hub Profile](https://github.com/jamierachael)
-* UNH Project Design
-
-## Acknowledgments
-
-* Hat tip to UNH for providing project parameters and code examples
+Para instalar esse código, baixe o arquivo zip ou use as diretrizes do GitHub para clonar o repositório.
 
 
+### Resumo
+* Documentos HTML e CSS e Javascript criam um quiz com perguntas de múltipla escolha com curiosidades sobre Javascript
+* Este projeto enfatiza o uso de Javascript para fazer alterações dinâmicas em um documento HTML
+* Este projeto utiliza o uso de páginas HTML anexadas
 
+### Este projeto possui as seguintes características:
+* Um botão Iniciar questionário
+    * Isso inicia um cronômetro para o usuário
+    * Cada questão tem uma média de 15 segundos cada para um tempo total de 75 segundos + 1.
 
+![](recursos/imagens/botão.PNG)
 
+* Uma página HTML anexada que apresenta perguntas e respostas de múltipla escolha
+    * Se as perguntas forem respondidas incorretamente, 5 segundos serão deduzidos do tempo restante
+    * As respostas são gravadas usando um ouvinte de eventos, "clique" e rastreia as respostas corretas
 
+![](recursos/imagens/question1.PNG)
 
+![](recursos/imagens/question2.PNG)
 
+* Uma página HTML anexada que apresenta:
+    * Pontuação final que é calculada usando o tempo restante
+    * Um resumo de quantas perguntas respondidas corretamente
+    * Área de entrada para gravar iniciais
+    * Um botão Enviar
+    * O botão Enviar salva as iniciais e a pontuação no armazenamento local
+
+![](recursos/imagens/final.PNG)
+
+* Um HTML de recordes
+    * Este é um resumo da lista de pontuações iniciais e finais
+    * O botão Limpar redefine a página e o armazenamento local
+    * O botão Voltar viaja para o início do questionário
+
+![](recursos/imagens/alta.PNG)
+
+### Pseudo código:
+* Crie um temporizador anexado a um botão com um valor inicial de 0
+* Quando o temporizador é pressionado, inicia uma contagem regressiva reversa
+* Crie um 0 para contagem regressiva
+* Quando a contagem regressiva começar, inicie o questionário
+* Iniciar Quiz estará na página anexada
+* Acrescente a pergunta: escolhas
+* Quando o usuário seleciona a resposta certa, o conteúdo de texto "Correto!"
+* Quando o usuário seleciona a resposta certa, textcontent "Wrong!"
+* A pontuação final acompanhará quantos o usuário acertou
+* O tempo restante será deduzido da pontuação final
+* Página anexada à pontuação final
+* Captura armazenamento local
+* Viaja para outro HTML
+* Recordes recuperados
+
+### Este projeto possui recursos de script de:
+* Perguntas contidas em uma variável array com objetos
+* Área de declaração de variável
+* Um ouvinte de eventos (onclick) que gera intervalo de tempo
+* Uma função para renderizar as perguntas e escolhas na página usando um loop for
+* Um ouvinte de eventos em todas as opções da lista
+* Uma declaração de comparação para comparar as respostas corretas às escolhas
+* Uma página anexada mostrando as estatísticas finais do usuário individual com área de entrada para iniciais, captura o armazenamento local
+* Recordes de armazenamento local recuperados
+
+### Este projeto tem consultas de mídia para:
+* largura máxima: 980px
+    * Ajusta a largura do corpo e do recipiente
+* largura máxima: 786px
+    * Ajusta a largura do corpo e do recipiente
+    * Ajusta os botões
+* largura máxima: 640px
+    * Ajusta a largura do corpo e do recipiente
+    * Ajusta os botões para serem centralizados e empilhados
+
+### Para executar o arquivo:
+> Abrir no navegador
+
+### Características:
+* Duas páginas HTML
+    * Index.html
+        * Contém página de destino para iniciar o temporizador
+        * Anexa duas novas páginas
+* Notas altas
+        * Recupera dados locais da página anterior
+* Uma página CSS
+    * Estilos.css
+        * Contém centralização e estilo para recursos de lista html
+        * Contém consultas de mídia
+* Duas Páginas Javascript
+        * Contém:
+        * Variáveis, incluindo arrays com objeto
+        * Ouvintes de eventos
+        * if/else if declarações
+        * Para laços
+        * Funções
+        * Conjunto de armazenamento local e obter
+
+## Autores
+
+* **Jamie Rachael Morris** - *Trabalho inicial* - [Perfil do Git Hub](https://github.com/jamierachael)
+* Desenho do Projeto UNH
+
+## Agradecimentos
+
+* Dica de chapéu para UNH por fornecer parâmetros de projeto e exemplos de código
