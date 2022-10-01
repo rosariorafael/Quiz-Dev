@@ -6,9 +6,7 @@ Este é um aplicativo de quiz usando HTML, CSS e Javascript. Este aplicativo enf
 
 Este projeto foi implantado no GitHub Pages. Para colocar este projeto em funcionamento, você pode seguir o link situado abaixo. Ou baixe os arquivos de fontes para usá-los em visualização local.
 
-* [Repositório do GitHub](https://github.com/jamierachael/Code-Quiz)
-* [Implantado GitHub IO](https://jamierachael.github.io/Code-Quiz/)
-* [Vídeo de demonstração completo](https://drive.google.com/file/d/1Vwszd5-rVd5LQKwpRoxpXqu_1eiH3uDI/view)
+* [Repositório do GitHub](https://github.com/rosariorafael/Quiz-Dev)
 
 ![Demonstração do teste de código](assets/demo/full.gif)
 
@@ -118,9 +116,5 @@ Para instalar esse código, baixe o arquivo zip ou use as diretrizes do GitHub p
 
 ## Autores
 
-* **Jamie Rachael Morris** - *Trabalho inicial* - [Perfil do Git Hub](https://github.com/jamierachael)
-* Desenho do Projeto UNH
-
-## Agradecimentos
-
-* Dica de chapéu para UNH por fornecer parâmetros de projeto e exemplos de código
+* Por Jamie Rachel Morris.
+* Atualização e estilização por Rafael Rosário.
