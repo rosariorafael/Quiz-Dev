@@ -2,14 +2,14 @@
 // Var with array and object for questions 
 var questions = [
     {
-        title: "Commonly used data types DO NOT include:",
-        choices: ["strings", "booleans", "alerts", "numbers"],
-        answer: "alerts"
+        title: "Sobre uma página HTML, assinale a alternativa que indica para que é utilizada a tag <select></select>.",
+        choices: ["Representar um controle que apresenta um menu de opções", "Representar as opções de dentro de um menu", "Inserir links previamente selecionados", "Definir um texto selecionado para ficar em negrito"],
+        answer: "Representar um controle que apresenta um menu de opções"
     },
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "parentheses"
+        title: "Se um elemento HTML possui o atributo ________, ele pode ser identificado na linguagem CSS por meio do caracter # (hashtag). Qual opção preenche corretamente a lacuna?",
+        choices: ["id", "class", "tag", "fixed", "head"],
+        answer: "class"
     },
     {
         title: "Arrays in Javascript can be used to store ____.",
