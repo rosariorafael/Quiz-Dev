@@ -43,7 +43,7 @@ var wrapper = document.querySelector(".wrapper");
 var secondsLeft = 80;
 // Tempo de intervalo
 var holdInterval = 0;
-// Penalidad em segundos por erro
+// Penalclassad em segundos por erro
 var penalty = 10;
 // Creates new element
 var ulCreate = document.createElement("ul");
@@ -94,7 +94,7 @@ function compare(event) {
     if (element.matches("li")) {
 
         var createDiv = document.createElement("div");
-        createDiv.setAttribute("id", "createDiv");
+        createDiv.setAttribute("class", "createDiv");
         // Correct condition 
         if (element.textContent == questions[questionIndex].answer) {
             score++;
@@ -127,14 +127,14 @@ function allDone() {
 
     // Heading:
     var createH1 = document.createElement("h1");
-    createH1.setAttribute("id", "createH1");
+    createH1.setAttribute("class", "createH1");
     createH1.textContent = "Fim!"
 
     questionsDiv.appendChild(createH1);
 
     // Paragraph
     var createP = document.createElement("p");
-    createP.setAttribute("id", "createP");
+    createP.setAttribute("class", "createP");
 
     questionsDiv.appendChild(createP);
 
@@ -150,7 +150,7 @@ function allDone() {
 
     // Label
     var createLabel = document.createElement("label");
-    createLabel.setAttribute("id", "createLabel");
+    createLabel.setAttribute("class", "createLabel");
     createLabel.textContent = "Digite seu nome: ";
 
     questionsDiv.appendChild(createLabel);

@@ -114,6 +114,12 @@
             border-top: 1px solid lightgray;
         }
 
+        #createDiv {
+            margin-top: 20px;
+            border-top: 1px solid lightgray;
+            padding-top: 20px;
+        }
+
         /* Start media queries */
         /* A Media Query max-width: 786px */
 @media screen and (max-width: 786px) {
