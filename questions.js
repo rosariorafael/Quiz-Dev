@@ -34,10 +34,10 @@ var questionIndex = 0;
 
 // Start working code 
 // Declared variables
-var currentTime = document.querySelector("#currentTime");
-var timer = document.querySelector("#startTime");
-var questionsDiv = document.querySelector("#questionsDiv");
-var wrapper = document.querySelector("#wrapper");
+var currentTime = document.querySelector(".currentTime");
+var timer = document.querySelector(".startTime");
+var questionsDiv = document.querySelector(".questionsDiv");
+var wrapper = document.querySelector(".wrapper");
 
 // Segundos por pergunta:
 var secondsLeft = 80;
@@ -158,7 +158,7 @@ function allDone() {
     // input
     var createInput = document.createElement("input");
     createInput.setAttribute("type", "text");
-    createInput.setAttribute("id", "initials");
+    createInput.setAttribute("class", "initials");
     createInput.textContent = "";
 
     questionsDiv.appendChild(createInput);
@@ -166,7 +166,7 @@ function allDone() {
     // submit
     var createSubmit = document.createElement("button");
     createSubmit.setAttribute("type", "submit");
-    createSubmit.setAttribute("id", "Submit");
+    createSubmit.setAttribute("class", "Submit");
     createSubmit.textContent = "Enviar";
 
     questionsDiv.appendChild(createSubmit);
