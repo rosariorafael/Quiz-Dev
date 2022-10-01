@@ -10,7 +10,7 @@ Este projeto foi implantado no GitHub Pages. Para colocar este projeto em funcio
 * [Implantado GitHub IO](https://jamierachael.github.io/Code-Quiz/)
 * [Vídeo de demonstração completo](https://drive.google.com/file/d/1Vwszd5-rVd5LQKwpRoxpXqu_1eiH3uDI/view)
 
-![Demonstração do teste de código](assets/demo/gif.gif)
+![Demonstração do teste de código](assets/demo/full.gif)
 
 ### Pré-requisitos
 
